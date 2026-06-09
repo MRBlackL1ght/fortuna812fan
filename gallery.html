@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея — Фанатская страница Fortuna 812</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="gallery-header">
+
+    <div class="header-flex">
+
+        <div class="logo">
+            F812
+        </div>
+
+        <div class="header-info">
+
+            <h1>
+                <i class="fas fa-images"></i>
+                Фотогалерея Fortuna 812
+            </h1>
+
+            <p class="subtitle">
+                Коллекция фотографий исполнителя
+            </p>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </div>
+
+</header>
+
+<main class="gallery-container">
+
+    <!-- Статистика -->
+
+    <div class="controls-panel">
+
+        <div class="stats">
+
+            <span class="stat-item">
+                <i class="fas fa-image"></i>
+                Изображений:
+                <span id="image-counter">6</span>
+            </span>
+
+            <span class="stat-item">
+                <i class="fas fa-heart"></i>
+                Всего лайков:
+                <span id="total-likes">0</span>
+            </span>
+
+        </div>
+
+    </div>
+
+    <!-- Фильтры -->
+
+    <div class="filters">
+
+        <h3>Фильтр фотографий</h3>
+
+        <div class="filter-buttons">
+
+            <button class="filter-btn active"
+                    data-filter="all">
+                Все
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="concert">
+                Концерты
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="photo">
+                Фотосессии
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="life">
+                Закулисье
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- ГАЛЕРЕЯ -->
+
+    <div class="gallery-grid">
+
+        <!-- 1 -->
+
+        <article class="image-card" data-category="concert">
+
+            <div class="card-image">
+
+                <img src="images/fortuna1.jpeg"
+                     alt="Fortuna 812 на сцене"
+                     class="gallery-img">
+
+                <div class="image-overlay">
+
+                    <button class="like-btn">
+                        ❤
+                        <span class="like-count">0</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="card-content">
+
+                <h3 class="image-title">
+                    Концертное выступление
+                </h3>
+
+                <p class="image-description">
+                    Fortuna 812 во время живого выступления
+                    перед поклонниками.
+                </p>
+
+            </div>
+
+        </article>
+
+        <!-- 2 -->
+
+        <article class="image-card" data-category="photo">
+
+            <div class="card-image">
+
+                <img src="images/fortuna2.webp"
+                     alt="Фотосессия Fortuna 812"
+                     class="gallery-img">
+
+                <div class="image-overlay">
+
+                    <button class="like-btn">
+                        ❤
+                        <span class="like-count">0</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="card-content">
+
+                <h3 class="image-title">
+                    Студийная фотосессия
+                </h3>
+
+                <p class="image-description">
+                    Профессиональная съёмка для музыкального проекта.
+                </p>
+
+            </div>
+
+        </article>
+
+        <!-- 3 -->
+
+        <article class="image-card" data-category="life">
+
+            <div class="card-image">
+
+                <img src="images/fortuna3.webp"
+                     alt="Fortuna 812 за работой"
+                     class="gallery-img">
+
+                <div class="image-overlay">
+
+                    <button class="like-btn">
+                        ❤
+                        <span class="like-count">0</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="card-content">
+
+                <h3 class="image-title">
+                    Работа над музыкой
+                </h3>
+
+                <p class="image-description">
+                    Создание новых композиций и подготовка релизов.
+                </p>
+
+            </div>
+
+        </article>
+
+        <!-- 4 -->
+
+        <article class="image-card" data-category="concert">
+
+            <div class="card-image">
+
+                <img src="images/fortuna4.png"
+                     alt="Выступление Fortuna 812"
+                     class="gallery-img">
+
+                <div class="image-overlay">
+
+                    <button class="like-btn">
+                        ❤
+                        <span class="like-count">0</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="card-content">
+
+                <h3 class="image-title">
+                    Энергия сцены
+                </h3>
+
+                <p class="image-description">
+                    Один из ярких моментов концертной программы.
+                </p>
+
+            </div>
+
+        </article>
+
+        <!-- 5 -->
+
+        <article class="image-card" data-category="photo">
+
+            <div class="card-image">
+
+                <img src="images/fortuna5.webp"
+                     alt="Портрет Fortuna 812"
+                     class="gallery-img">
+
+                <div class="image-overlay">
+
+                    <button class="like-btn">
+                        ❤
+                        <span class="like-count">0</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="card-content">
+
+                <h3 class="image-title">
+                    Портрет исполнителя
+                </h3>
+
+                <p class="image-description">
+                    Один из самых узнаваемых кадров артиста.
+                </p>
+
+            </div>
+
+        </article>
+
+        <!-- 6 -->
+
+        <article class="image-card" data-category="life">
+
+            <div class="card-image">
+
+                <img src="images/fortuna6.webp"
+                     alt="Fortuna 812 за кулисами"
+                     class="gallery-img">
+
+                <div class="image-overlay">
+
+                    <button class="like-btn">
+                        ❤
+                        <span class="like-count">0</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="card-content">
+
+                <h3 class="image-title">
+                    За кулисами
+                </h3>
+
+                <p class="image-description">
+                    Атмосфера подготовки к выступлению и общение с командой.
+                </p>
+
+            </div>
+
+        </article>
+
+    </div>
+
+    <!-- Информация -->
+
+    <aside class="gallery-info">
+
+        <h3>Интересный факт</h3>
+
+        <p>
+            Популярность современных артистов во многом зависит
+            от стриминговых сервисов и социальных сетей,
+            благодаря которым музыка быстро находит новую аудиторию.
+        </p>
+
+    </aside>
+
+</main>
+
+<footer class="gallery-footer">
+
+    <p>
+        © Даня, студент 1 курса, 2026
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
